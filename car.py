@@ -11,6 +11,3 @@ class Car(Serviceable,ABC):
 
     def needs_service(self):
         return super().needs_service()
-    
-    
-
